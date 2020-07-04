@@ -1,0 +1,44 @@
+#badge {
+  min-width: 300px;
+  min-height: 300px;
+  /* background-image: url("../images/professor.jfif"); */
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* background-color: black; */
+  border-radius: 10px;
+  margin-left: 3.5%;
+}
+
+#badge:hover {
+  opacity: 0.5;
+  transition: 0.3s;
+  box-shadow: 0 3000px rgba(0, 0, 0, 0.4) inset;
+}
+
+#icons {
+  color: white;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 60%;
+}
+
+#info:hover {
+  cursor: pointer;
+  color: green;
+}
+#edit:hover {
+  cursor: pointer;
+  color: green;
+}
+
+#delete:hover {
+  cursor: pointer;
+  color: red;
+}
+
+.desc {
+  height: 20rem;
+  width: 50%;
+}

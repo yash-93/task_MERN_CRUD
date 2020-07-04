@@ -1,0 +1,57 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+#container {
+  /* position: absolute;
+  width: 85%;
+  height: 40vh;
+  top: 50%;
+  left: 50%;
+  border: 1px solid;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+  justify-content: space-between; */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  transform: translate(-50%, -50%);
+  height: 50vh;
+  background-color: rgb(232, 252, 255);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: -1;
+}
+
+#badgeContainer {
+  /* border: 1px solid; */
+  width: 100%;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+}
+
+#leftArrow {
+  padding-left: 2%;
+  z-index: 0;
+}
+
+#rightArrow {
+  padding-right: 2%;
+  z-index: 0;
+}
+
+#leftArrow:hover {
+  cursor: pointer;
+  size: 2rem;
+}
+
+#rightArrow {
+  cursor: pointer;
+}

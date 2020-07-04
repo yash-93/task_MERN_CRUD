@@ -1,0 +1,9 @@
+#addbadge {
+  border: 1px;
+  align-items: center;
+  justify-content: center;
+  margin-left: 50px;
+}
+#addbadge i {
+  cursor: pointer;
+}
